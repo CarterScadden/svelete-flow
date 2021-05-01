@@ -1,11 +1,19 @@
 <script lang="ts">
+import ModifierBar from "./components/ModifierBar.svelte";
 import ToolBar from "./components/ToolBar.svelte";
 
 
+	let isOpen = true;
 </script>
 
 <main>
 	<ToolBar />
+
+	<div>
+		<button on:click={() => isOpen = !isOpen}>Toggle!</button>
+	</div>
+
+	<ModifierBar isOpen={isOpen} />
 </main>
 
 <style>
