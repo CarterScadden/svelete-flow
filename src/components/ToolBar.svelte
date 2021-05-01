@@ -1,9 +1,11 @@
 <script lang="ts">
-
+    import { createElement } from '../utils/elementModifier'
 </script>
 
 <div id="tool-bar" class="container column align-center">
-    
+    <button on:click={() => createElement('div')}>
+        Add Div
+    </button>
 </div>
 
 <style>
