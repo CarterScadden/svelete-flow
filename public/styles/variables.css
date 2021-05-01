@@ -1,6 +1,9 @@
 * {
   --primary: rgb(0, 174, 255);
   --secondary: rgba(186, 206, 12, 0);
+<<<<<<< HEAD
   --dark: rgb(80, 80, 80);
   --dark-plus: rgb(50, 50, 50);
+=======
+>>>>>>> 9e9b8ae9bfe35e31f85a567bd30542214b638adb
 }

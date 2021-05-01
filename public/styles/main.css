@@ -193,6 +193,24 @@ label.text input {
   padding: 0.33em 0.55em;
 }
 
+.draggable {
+  border-radius: 4px;
+  background: #fff;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.draggable:active {
+  cursor: move;
+}
+
+.hide {
+  transition: 0.01s;
+  transform: translateX(-9999px);
+}
+
 ul,
 ol {
   margin-block-start: 0;
