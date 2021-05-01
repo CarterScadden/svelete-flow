@@ -10,9 +10,12 @@
   justify-content: center;
   align-items: center;
 }
-.container.content-center {
+.container.column {
+  flex-direction: column;
+}
+.container.justify-center {
   justify-content: center;
 }
-.container.items-center {
+.container.align-center {
   align-items: center;
 }

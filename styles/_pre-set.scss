@@ -6,11 +6,15 @@
     align-items: center;
   }
 
-  &.content-center {
+  &.column {
+    flex-direction: column;
+  }
+
+  &.justify-center {
     justify-content: center;
   }
 
-  &.items-center {
+  &.align-center {
     align-items: center;
   }
 }

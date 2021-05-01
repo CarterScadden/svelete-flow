@@ -1,17 +1,17 @@
 <script lang="ts">
-import AppBar from "./components/AppBar.svelte";
+import ToolBar from "./components/ToolBar.svelte";
 
 
 </script>
 
 <main>
-	<AppBar />
+	<ToolBar />
 </main>
 
 <style>
 	main {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		position: absolute;
 		left: 0;
 		right: 0;
