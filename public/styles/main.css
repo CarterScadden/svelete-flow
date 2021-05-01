@@ -1,0 +1,18 @@
+* {
+  --primary: rgb(0, 174, 255);
+  --secondary: rgba(186, 206, 12, 0);
+}
+
+.container {
+  display: flex;
+}
+.container.center {
+  justify-content: center;
+  align-items: center;
+}
+.container.content-center {
+  justify-content: center;
+}
+.container.items-center {
+  align-items: center;
+}

@@ -1,9 +1,11 @@
 <script lang="ts">
+import AppBar from "./components/AppBar.svelte";
+
 
 </script>
 
 <main>
-
+	<AppBar />
 </main>
 
 <style>
