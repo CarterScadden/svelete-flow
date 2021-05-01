@@ -8,7 +8,8 @@ let isOpen = true;
 
 <svelte:body
   on:mouseleave="{dragndropUtils.handleMouseLeave}"
-  on:mousemove="{dragndropUtils.handleMouseMove}" />
+  on:mousemove="{dragndropUtils.handleMouseMove}"
+/>
 
 
 <main>

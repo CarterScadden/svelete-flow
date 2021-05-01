@@ -15,5 +15,15 @@ export function createElement(type: ElementTypes) {
   element.classList.add("draggable");
   element.addEventListener("dragstart", dragndropUtils.handleDragStart);
   element.addEventListener("dragend", dragndropUtils.handleDragEnd);
+
+
+  const button = document.createElement('button');
+  button.style.position = 'absolute';
+  button.style.top = '0px';
+  button.style.right = '0px';
+  // add svg here, and an event listener to button that will remove this element.
+
+
+
   body.appendChild(element);
 }

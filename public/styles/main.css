@@ -198,7 +198,7 @@ label.text input {
   background: #fff;
   width: 150px;
   height: 150px;
-  position: absolute;
+  position: relative;
   cursor: pointer;
 }
 
