@@ -12,12 +12,21 @@ main {
 </style>
 
 <script lang="ts">
+import ModifierBar from "./components/ModifierBar.svelte";
 import ToolBar from "./components/ToolBar.svelte";
 import dragndropUtils from "./stores/dragndrop/utils";
+
+let isOpen = true;
 </script>
 
 <main>
   <ToolBar />
+
+  <div>
+    <button on:click="{() => (isOpen = !isOpen)}">Toggle!</button>
+  </div>
+
+  <ModifierBar isOpen="{isOpen}" />
 </main>
 <svelte:body
   on:mouseleave="{dragndropUtils.handleMouseLeave}"
