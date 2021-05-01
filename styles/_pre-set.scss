@@ -1,3 +1,5 @@
+@import "./spacing";
+
 .container {
   display: flex;
 
@@ -16,5 +18,18 @@
 
   &.align-center {
     align-items: center;
+  }
+}
+
+label.text {
+  width: fit-content;
+
+  input {
+    width: fit-content;
+    background-color: var(--dark);
+    border: 2px solid var(--dark-plus);
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.33em 0.55em;
   }
 }
